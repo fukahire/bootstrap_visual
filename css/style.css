@@ -73,6 +73,25 @@ header .navbar-media .container-fluid .navbar-nav .nav-item {
   margin: 12px 0;
 }
 
+.bar-right {
+  height: 100%;
+  position: fixed;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  right: 16px;
+  -webkit-writing-mode: vertical-lr;
+      -ms-writing-mode: tb-lr;
+          writing-mode: vertical-lr;
+  color: white;
+}
+
+.bar-right .col-12 {
+  text-align: right;
+  margin-bottom: 120px;
+}
+
 .content .row {
   margin-top: 20vh;
 }
