@@ -83,8 +83,12 @@ header .navbar-media .container-fluid .navbar-nav .nav-item {
   margin-bottom: 32px;
 }
 
-.content .row .col-4 button {
+.content .row .col-4 .btn {
   background: #45b8f1;
   color: white;
+}
+
+.content .row .col-4 .btn:hover {
+  background: #007cb9;
 }
 /*# sourceMappingURL=style.css.map */
