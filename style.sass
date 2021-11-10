@@ -1,6 +1,9 @@
-body
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800;900&display=swap');
+
 body
     background-image: url(../img/jellyfish-gcdb9508dd_1920.jpg)
+    background-position: 95% 0
+    background-attachment: fixed
 
 header
     .navbar
@@ -13,9 +16,14 @@ header
             .nav-link
                 text-transform: uppercase
                 color: white
+        &-top
+            margin-top: 15px
+            .nav-item
+                margin: 0 24px
     .navbar-media
         position: fixed
         top: 50%
+        left: 16px
         transform: translate(0, -50%)
         .container-fluid
             flex-direction: column
@@ -23,19 +31,28 @@ header
             .navbar-nav
                 flex-direction: column
                 text-align: center
+                font-size: 20px
+                .nav-item
+                    margin: 12px 0
 
 .content
     // background: green
     .row
-        margin: 60px 0
+        margin-top: 20vh
         .col-8
             // background: blue
         .col-4
             // background: pink
             h2
                 font-weight: 800
-                font-size: 60px
+                font-size: 72px
                 color: #84d7ff
-                margin-bottom: 20px
+                margin-bottom: 32px
+                font-family: 'Poppins', sans-serif
+                letter-spacing: 3px
             p
+                color: white
+                margin-bottom: 32px
+            button
+                background: #45b8f1
                 color: white
