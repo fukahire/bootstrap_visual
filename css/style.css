@@ -11,6 +11,10 @@ header .navbar .container-fluid {
           justify-content: center;
 }
 
+header .navbar .container-fluid .navbar-brand:hover {
+  color: yellow;
+}
+
 header .navbar .container-fluid .navbar-collapse {
   -webkit-box-flex: 0;
       -ms-flex-positive: 0;
@@ -24,6 +28,10 @@ header .navbar .container-fluid a {
 header .navbar .container-fluid .nav-link {
   text-transform: uppercase;
   color: white;
+}
+
+header .navbar .container-fluid .nav-link:hover {
+  color: #45b8f1;
 }
 
 header .navbar-top {
